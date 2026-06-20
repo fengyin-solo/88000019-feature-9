@@ -86,4 +86,51 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 768px) {
+  .hero-banner {
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .hero-banner > div {
+    border-radius: 18px;
+    padding: 18px;
+  }
+
+  .eyebrow {
+    margin: 0 0 8px;
+    font-size: 0.7rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  .description {
+    margin: 10px 0 0;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .hero-highlight {
+    padding: 16px 18px;
+  }
+
+  .hero-highlight span {
+    font-size: 0.72rem;
+  }
+
+  .hero-highlight strong {
+    margin: 8px 0 6px;
+    font-size: 2rem;
+  }
+
+  .hero-highlight p {
+    font-size: 0.82rem;
+  }
+}
 </style>

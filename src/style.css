@@ -57,3 +57,9 @@ a {
     padding: 22px 16px 28px;
   }
 }
+
+@media (max-width: 768px) {
+  .app-main {
+    padding-bottom: calc(70px + env(safe-area-inset-bottom, 0));
+  }
+}
